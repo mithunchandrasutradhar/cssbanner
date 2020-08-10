@@ -1,0 +1,2655 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+  @keyframes fadeInLeft {
+      from {
+          opacity:0;
+          -webkit-transform: translatex(-1000px);
+          -moz-transform: translatex(-1000px);
+          -o-transform: translatex(-1000px);
+          transform: translatex(-1000px);
+      }
+      to {
+          opacity:1;
+          -webkit-transform: translatex(0);
+          -moz-transform: translatex(0);
+          -o-transform: translatex(0);
+          transform: translatex(0);
+      }
+  }
+
+
+  .in-left-head {
+  padding-left: 427px;
+  padding-top: 20px;
+
+  color:Yellow;
+      -webkit-animation-name: fadeInLeft;
+      -moz-animation-name: fadeInLeft;
+      -o-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 1.2s;
+
+  }
+
+  .in-left-body {
+  color:white;
+  padding-left: 427px;
+  padding-top: 20px;
+
+      -webkit-animation-name: fadeInLeft;
+      -moz-animation-name: fadeInLeft;
+      -o-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 1.4s;
+  }
+  .in-left-body-one {
+  color:white;
+  padding-left: 427px;
+  padding-top: 100px;
+
+      -webkit-animation-name: fadeInLeft;
+      -moz-animation-name: fadeInLeft;
+      -o-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 1.4s;
+  }
+  .in-left-body-two {
+    color:white;
+    padding-left: 427px;
+    padding-top:140px;
+
+
+      -webkit-animation-name: fadeInLeft;
+      -moz-animation-name: fadeInLeft;
+      -o-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 1.6s;
+  }
+  .in-left-body-three {
+  color:white;
+  padding-left: 427px;
+    padding-top:180px;
+      -webkit-animation-name: fadeInLeft;
+      -moz-animation-name: fadeInLeft;
+      -o-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 1.8s;
+  }
+  .in-left-body-four {
+  color:white;
+  padding-left: 427px;
+    padding-top:220px;
+      -webkit-animation-name: fadeInLeft;
+      -moz-animation-name: fadeInLeft;
+      -o-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 2s;
+  }
+
+
+  .in-left-button{
+    padding-left: 530px;
+    padding-top: 289px;
+    color: black;
+        -webkit-animation-name: fadeInLeft;
+        -moz-animation-name: fadeInLeft;
+        -o-animation-name: fadeInLeft;
+        animation-name: fadeInLeft;
+        -webkit-animation-fill-mode: both;
+        -moz-animation-fill-mode: both;
+        -o-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+        -o-animation-duration: 1s;
+        animation-duration: 2.2s;
+        -webkit-animation-delay: 1s;
+        -moz-animation-delay: 1s;
+        -o-animation-duration:1s;
+        animation-delay: 2.2s;
+  }
+  .btn-primary {
+      color:black !important;
+      background-color: #ffd40b  !important;
+          border: none !important;
+      border-radius: 25px  !important;
+      height: 52px !important;
+    width: 137px !important;
+    font-size: 23px !important;
+    }
+  .in-left-button-five{
+    padding-left: 497px;
+    padding-top: 0px;
+
+        -webkit-animation-name: fadeInLeft;
+        -moz-animation-name: fadeInLeft;
+        -o-animation-name: fadeInLeft;
+        animation-name: fadeInLeft;
+        -webkit-animation-fill-mode: both;
+        -moz-animation-fill-mode: both;
+        -o-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+        -o-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-delay: 1s;
+        -moz-animation-delay: 1s;
+        -o-animation-duration:1s;
+        animation-delay: 2.4s;
+  }
+  @keyframes fadeInRight {
+      from {
+          opacity:0;
+          -webkit-transform: translatex(1100px);
+          -moz-transform: translatex(1100px);
+          -o-transform: translatex(1100px);
+          transform: translatex(1100px);
+      }
+      to {
+          opacity:1;
+          -webkit-transform: translatex(0);
+          -moz-transform: translatex(0);
+          -o-transform: translatex(0);
+          transform: translatex(0);
+      }
+  }
+  .in-right {
+
+      -webkit-animation-name: fadeInRight;
+      -moz-animation-name: fadeInRight;
+      -o-animation-name: fadeInRight;
+      animation-name: fadeInRight;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 1s;
+
+  }
+  .in-rightin {
+
+      -webkit-animation-name: fadeInRight;
+      -moz-animation-name: fadeInRight;
+      -o-animation-name: fadeInRight;
+      animation-name: fadeInRight;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 8s;
+  }
+  .in-rightinpc {
+
+      -webkit-animation-name: fadeInRight;
+      -moz-animation-name: fadeInRight;
+      -o-animation-name: fadeInRight;
+      animation-name: fadeInRight;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 15s;
+  }
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+
+  body {
+    font-family: 'Open Sans', 'sans-serif';
+    color: #cecece;
+    background: #222;
+    overflow: hidden;
+  }
+  .pic-1,
+  .pic-2,
+  .pic-3{
+  	position: absolute;
+    display: block;
+  	top: 2em;
+
+    width: 60%;
+
+    font-size: 2em;
+
+  	animation-duration: 20s;
+  	animation-timing-function: ease-in-out;
+  	animation-iteration-count: infinite;
+  }
+  .pic-1{
+  	animation-name: pim-1;
+  }
+  .pic-2{
+  	animation-name: pim-2;
+  }
+  .pic-3{
+  	animation-name: pim-3;
+  }
+  @keyframes pim-1 {
+  	0%, 8.3% { right:  -100%; opacity: 0; }
+    8.3%,25% { right:  5px; top:1px;opacity: 1; }
+    33.33%, 100% { right:  -50%; opacity: 0; }
+  }
+  @keyframes pim-2 {
+  	0%, 8.3% { right:  -100%; opacity: 0; }
+    8.3%,25% { right:  5px; top:1px;opacity: 1; }
+    33.33%, 100% { right: -50%; opacity: 0; }
+  }
+  @keyframes pim-3 {
+  	0%, 8.3% { right:  -100%; opacity: 0; }
+    8.3%,25% { right:  5px; top:1px;opacity: 1; }
+    33.33%, 100% { right:  -50%; opacity: 0; }
+  }
+  .item-1,
+  .item-2,
+  .item-3 {
+  	position: absolute;
+    display: block;
+  	top: 2em;
+
+    width: 60%;
+
+    font-size: 2em;
+
+  	animation-duration: 20s;
+  	animation-timing-function: ease-in-out;
+  	animation-iteration-count: infinite;
+  }
+
+  .item-1{
+  	animation-name: anim-1;
+  }
+
+  .item-2{
+  	animation-name: anim-2;
+  }
+
+  .item-3{
+  	animation-name: anim-3;
+  }
+
+  @keyframes anim-1 {
+  	0%, 8.3% { left: -100%; opacity: 0; }
+    8.3%,25% { left: 5px; top:1px;opacity: 1; }
+    33.33%, 100% { left: -50%; opacity: 0; }
+  }
+
+  @keyframes anim-2 {
+  	0%, 33.33% { left: -100%; opacity: 0; }
+    41.63%, 58.29% { left: 5px; top:1px;opacity: 1; }
+    66.66%, 100% { left: -50%; opacity: 0; }
+  }
+
+  @keyframes anim-3 {
+  	0%, 66.66% { left: -100%; opacity: 0; }
+    74.96%, 91.62% { left: 5px; top:1px; opacity: 1; }
+    100% { left: -50%; opacity: 0; }
+  }
+
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  @keyframes fadeInLeft {
+      from {
+          opacity:0;
+          -webkit-transform: translatex(-1000px);
+          -moz-transform: translatex(-1000px);
+          -o-transform: translatex(-1000px);
+          transform: translatex(-1000px);
+      }
+      to {
+          opacity:1;
+          -webkit-transform: translatex(0);
+          -moz-transform: translatex(0);
+          -o-transform: translatex(0);
+          transform: translatex(0);
+      }
+  }
+
+
+  .in-left-head {
+  padding-left: 427px;
+  padding-top: 20px;
+
+  color:Yellow;
+      -webkit-animation-name: fadeInLeft;
+      -moz-animation-name: fadeInLeft;
+      -o-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 1.2s;
+
+  }
+
+  .in-left-body {
+  color:white;
+  padding-left: 427px;
+  padding-top: 20px;
+
+      -webkit-animation-name: fadeInLeft;
+      -moz-animation-name: fadeInLeft;
+      -o-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 1.4s;
+  }
+  .in-left-body-one {
+  color:white;
+  padding-left: 427px;
+  padding-top: 100px;
+
+      -webkit-animation-name: fadeInLeft;
+      -moz-animation-name: fadeInLeft;
+      -o-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 1.4s;
+  }
+  .in-left-body-two {
+    color:white;
+    padding-left: 427px;
+    padding-top:140px;
+
+
+      -webkit-animation-name: fadeInLeft;
+      -moz-animation-name: fadeInLeft;
+      -o-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 1.6s;
+  }
+  .in-left-body-three {
+  color:white;
+  padding-left: 427px;
+    padding-top:180px;
+      -webkit-animation-name: fadeInLeft;
+      -moz-animation-name: fadeInLeft;
+      -o-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 1.8s;
+  }
+  .in-left-body-four {
+  color:white;
+  padding-left: 427px;
+    padding-top:220px;
+      -webkit-animation-name: fadeInLeft;
+      -moz-animation-name: fadeInLeft;
+      -o-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 2s;
+  }
+
+
+  .in-left-button{
+    padding-left: 530px;
+    padding-top: 289px;
+    color: black;
+        -webkit-animation-name: fadeInLeft;
+        -moz-animation-name: fadeInLeft;
+        -o-animation-name: fadeInLeft;
+        animation-name: fadeInLeft;
+        -webkit-animation-fill-mode: both;
+        -moz-animation-fill-mode: both;
+        -o-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+        -o-animation-duration: 1s;
+        animation-duration: 2.2s;
+        -webkit-animation-delay: 1s;
+        -moz-animation-delay: 1s;
+        -o-animation-duration:1s;
+        animation-delay: 2.2s;
+  }
+  .btn-primary {
+      color:black !important;
+      background-color: #ffd40b  !important;
+          border: none !important;
+      border-radius: 25px  !important;
+      height: 52px !important;
+    width: 137px !important;
+    font-size: 23px !important;
+    }
+  .in-left-button-five{
+    padding-left: 497px;
+    padding-top: 0px;
+
+        -webkit-animation-name: fadeInLeft;
+        -moz-animation-name: fadeInLeft;
+        -o-animation-name: fadeInLeft;
+        animation-name: fadeInLeft;
+        -webkit-animation-fill-mode: both;
+        -moz-animation-fill-mode: both;
+        -o-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+        -o-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-delay: 1s;
+        -moz-animation-delay: 1s;
+        -o-animation-duration:1s;
+        animation-delay: 2.4s;
+  }
+  @keyframes fadeInRight {
+      from {
+          opacity:0;
+          -webkit-transform: translatex(1100px);
+          -moz-transform: translatex(1100px);
+          -o-transform: translatex(1100px);
+          transform: translatex(1100px);
+      }
+      to {
+          opacity:1;
+          -webkit-transform: translatex(0);
+          -moz-transform: translatex(0);
+          -o-transform: translatex(0);
+          transform: translatex(0);
+      }
+  }
+  .in-right {
+
+      -webkit-animation-name: fadeInRight;
+      -moz-animation-name: fadeInRight;
+      -o-animation-name: fadeInRight;
+      animation-name: fadeInRight;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 1s;
+
+  }
+  .in-rightin {
+
+      -webkit-animation-name: fadeInRight;
+      -moz-animation-name: fadeInRight;
+      -o-animation-name: fadeInRight;
+      animation-name: fadeInRight;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 8s;
+  }
+  .in-rightinpc {
+
+      -webkit-animation-name: fadeInRight;
+      -moz-animation-name: fadeInRight;
+      -o-animation-name: fadeInRight;
+      animation-name: fadeInRight;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 15s;
+  }
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+
+  body {
+    font-family: 'Open Sans', 'sans-serif';
+    color: #cecece;
+    background: #222;
+    overflow: hidden;
+  }
+  .pic-1,
+  .pic-2,
+  .pic-3{
+  	position: absolute;
+    display: block;
+  	top: 2em;
+
+    width: 60%;
+
+    font-size: 2em;
+
+  	animation-duration: 20s;
+  	animation-timing-function: ease-in-out;
+  	animation-iteration-count: infinite;
+  }
+  .pic-1{
+  	animation-name: pim-1;
+  }
+  .pic-2{
+  	animation-name: pim-2;
+  }
+  .pic-3{
+  	animation-name: pim-3;
+  }
+  @keyframes pim-1 {
+  	0%, 8.3% { right:  -100%; opacity: 0; }
+    8.3%,25% { right:  5px; top:1px;opacity: 1; }
+    33.33%, 100% { right:  -50%; opacity: 0; }
+  }
+  @keyframes pim-2 {
+  	0%, 8.3% { right:  -100%; opacity: 0; }
+    8.3%,25% { right:  5px; top:1px;opacity: 1; }
+    33.33%, 100% { right: -50%; opacity: 0; }
+  }
+  @keyframes pim-3 {
+  	0%, 8.3% { right:  -100%; opacity: 0; }
+    8.3%,25% { right:  5px; top:1px;opacity: 1; }
+    33.33%, 100% { right:  -50%; opacity: 0; }
+  }
+  .item-1,
+  .item-2,
+  .item-3 {
+  	position: absolute;
+    display: block;
+  	top: 2em;
+
+    width: 60%;
+
+    font-size: 2em;
+
+  	animation-duration: 20s;
+  	animation-timing-function: ease-in-out;
+  	animation-iteration-count: infinite;
+  }
+
+  .item-1{
+  	animation-name: anim-1;
+  }
+
+  .item-2{
+  	animation-name: anim-2;
+  }
+
+  .item-3{
+  	animation-name: anim-3;
+  }
+
+  @keyframes anim-1 {
+  	0%, 8.3% { left: -100%; opacity: 0; }
+    8.3%,25% { left: 5px; top:1px;opacity: 1; }
+    33.33%, 100% { left: -50%; opacity: 0; }
+  }
+
+  @keyframes anim-2 {
+  	0%, 33.33% { left: -100%; opacity: 0; }
+    41.63%, 58.29% { left: 5px; top:1px;opacity: 1; }
+    66.66%, 100% { left: -50%; opacity: 0; }
+  }
+
+  @keyframes anim-3 {
+  	0%, 66.66% { left: -100%; opacity: 0; }
+    74.96%, 91.62% { left: 5px; top:1px; opacity: 1; }
+    100% { left: -50%; opacity: 0; }
+  }
+
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  @keyframes fadeInLeft {
+      from {
+          opacity:0;
+          -webkit-transform: translatex(-1000px);
+          -moz-transform: translatex(-1000px);
+          -o-transform: translatex(-1000px);
+          transform: translatex(-1000px);
+      }
+      to {
+          opacity:1;
+          -webkit-transform: translatex(0);
+          -moz-transform: translatex(0);
+          -o-transform: translatex(0);
+          transform: translatex(0);
+      }
+  }
+
+
+  .in-left-head {
+  padding-left: 427px;
+  padding-top: 20px;
+
+  color:Yellow;
+      -webkit-animation-name: fadeInLeft;
+      -moz-animation-name: fadeInLeft;
+      -o-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 1.2s;
+
+  }
+
+  .in-left-body {
+  color:white;
+  padding-left: 427px;
+  padding-top: 20px;
+
+      -webkit-animation-name: fadeInLeft;
+      -moz-animation-name: fadeInLeft;
+      -o-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 1.4s;
+  }
+  .in-left-body-one {
+  color:white;
+  padding-left: 427px;
+  padding-top: 100px;
+
+      -webkit-animation-name: fadeInLeft;
+      -moz-animation-name: fadeInLeft;
+      -o-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 1.4s;
+  }
+  .in-left-body-two {
+    color:white;
+    padding-left: 427px;
+    padding-top:140px;
+
+
+      -webkit-animation-name: fadeInLeft;
+      -moz-animation-name: fadeInLeft;
+      -o-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 1.6s;
+  }
+  .in-left-body-three {
+  color:white;
+  padding-left: 427px;
+    padding-top:180px;
+      -webkit-animation-name: fadeInLeft;
+      -moz-animation-name: fadeInLeft;
+      -o-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 1.8s;
+  }
+  .in-left-body-four {
+  color:white;
+  padding-left: 427px;
+    padding-top:220px;
+      -webkit-animation-name: fadeInLeft;
+      -moz-animation-name: fadeInLeft;
+      -o-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 2s;
+  }
+
+
+  .in-left-button{
+    padding-left: 530px;
+    padding-top: 289px;
+    color: black;
+        -webkit-animation-name: fadeInLeft;
+        -moz-animation-name: fadeInLeft;
+        -o-animation-name: fadeInLeft;
+        animation-name: fadeInLeft;
+        -webkit-animation-fill-mode: both;
+        -moz-animation-fill-mode: both;
+        -o-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+        -o-animation-duration: 1s;
+        animation-duration: 2.2s;
+        -webkit-animation-delay: 1s;
+        -moz-animation-delay: 1s;
+        -o-animation-duration:1s;
+        animation-delay: 2.2s;
+  }
+  .btn-primary {
+      color:black !important;
+      background-color: #ffd40b  !important;
+          border: none !important;
+      border-radius: 25px  !important;
+      height: 52px !important;
+    width: 137px !important;
+    font-size: 23px !important;
+    }
+  .in-left-button-five{
+    padding-left: 497px;
+    padding-top: 0px;
+
+        -webkit-animation-name: fadeInLeft;
+        -moz-animation-name: fadeInLeft;
+        -o-animation-name: fadeInLeft;
+        animation-name: fadeInLeft;
+        -webkit-animation-fill-mode: both;
+        -moz-animation-fill-mode: both;
+        -o-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+        -o-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-delay: 1s;
+        -moz-animation-delay: 1s;
+        -o-animation-duration:1s;
+        animation-delay: 2.4s;
+  }
+  @keyframes fadeInRight {
+      from {
+          opacity:0;
+          -webkit-transform: translatex(1100px);
+          -moz-transform: translatex(1100px);
+          -o-transform: translatex(1100px);
+          transform: translatex(1100px);
+      }
+      to {
+          opacity:1;
+          -webkit-transform: translatex(0);
+          -moz-transform: translatex(0);
+          -o-transform: translatex(0);
+          transform: translatex(0);
+      }
+  }
+  .in-right {
+
+      -webkit-animation-name: fadeInRight;
+      -moz-animation-name: fadeInRight;
+      -o-animation-name: fadeInRight;
+      animation-name: fadeInRight;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 1s;
+
+  }
+  .in-rightin {
+
+      -webkit-animation-name: fadeInRight;
+      -moz-animation-name: fadeInRight;
+      -o-animation-name: fadeInRight;
+      animation-name: fadeInRight;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 8s;
+  }
+  .in-rightinpc {
+
+      -webkit-animation-name: fadeInRight;
+      -moz-animation-name: fadeInRight;
+      -o-animation-name: fadeInRight;
+      animation-name: fadeInRight;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 15s;
+  }
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+
+  body {
+    font-family: 'Open Sans', 'sans-serif';
+    color: #cecece;
+    background: #222;
+    overflow: hidden;
+  }
+  .pic-1,
+  .pic-2,
+  .pic-3{
+  	position: absolute;
+    display: block;
+  	top: 2em;
+
+    width: 60%;
+
+    font-size: 2em;
+
+  	animation-duration: 20s;
+  	animation-timing-function: ease-in-out;
+  	animation-iteration-count: infinite;
+  }
+  .pic-1{
+  	animation-name: pim-1;
+  }
+  .pic-2{
+  	animation-name: pim-2;
+  }
+  .pic-3{
+  	animation-name: pim-3;
+  }
+  @keyframes pim-1 {
+  	0%, 8.3% { right:  -100%; opacity: 0; }
+    8.3%,25% { right:  5px; top:1px;opacity: 1; }
+    33.33%, 100% { right:  -50%; opacity: 0; }
+  }
+  @keyframes pim-2 {
+  	0%, 8.3% { right:  -100%; opacity: 0; }
+    8.3%,25% { right:  5px; top:1px;opacity: 1; }
+    33.33%, 100% { right: -50%; opacity: 0; }
+  }
+  @keyframes pim-3 {
+  	0%, 8.3% { right:  -100%; opacity: 0; }
+    8.3%,25% { right:  5px; top:1px;opacity: 1; }
+    33.33%, 100% { right:  -50%; opacity: 0; }
+  }
+  .item-1,
+  .item-2,
+  .item-3 {
+  	position: absolute;
+    display: block;
+  	top: 2em;
+
+    width: 60%;
+
+    font-size: 2em;
+
+  	animation-duration: 20s;
+  	animation-timing-function: ease-in-out;
+  	animation-iteration-count: infinite;
+  }
+
+  .item-1{
+  	animation-name: anim-1;
+  }
+
+  .item-2{
+  	animation-name: anim-2;
+  }
+
+  .item-3{
+  	animation-name: anim-3;
+  }
+
+  @keyframes anim-1 {
+  	0%, 8.3% { left: -100%; opacity: 0; }
+    8.3%,25% { left: 5px; top:1px;opacity: 1; }
+    33.33%, 100% { left: -50%; opacity: 0; }
+  }
+
+  @keyframes anim-2 {
+  	0%, 33.33% { left: -100%; opacity: 0; }
+    41.63%, 58.29% { left: 5px; top:1px;opacity: 1; }
+    66.66%, 100% { left: -50%; opacity: 0; }
+  }
+
+  @keyframes anim-3 {
+  	0%, 66.66% { left: -100%; opacity: 0; }
+    74.96%, 91.62% { left: 5px; top:1px; opacity: 1; }
+    100% { left: -50%; opacity: 0; }
+  }
+
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  @keyframes fadeInLeft {
+      from {
+          opacity:0;
+          -webkit-transform: translatex(-1000px);
+          -moz-transform: translatex(-1000px);
+          -o-transform: translatex(-1000px);
+          transform: translatex(-1000px);
+      }
+      to {
+          opacity:1;
+          -webkit-transform: translatex(0);
+          -moz-transform: translatex(0);
+          -o-transform: translatex(0);
+          transform: translatex(0);
+      }
+  }
+
+
+  .in-left-head {
+  padding-left: 427px;
+  padding-top: 20px;
+
+  color:Yellow;
+      -webkit-animation-name: fadeInLeft;
+      -moz-animation-name: fadeInLeft;
+      -o-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 1.2s;
+
+  }
+
+  .in-left-body {
+  color:white;
+  padding-left: 427px;
+  padding-top: 20px;
+
+      -webkit-animation-name: fadeInLeft;
+      -moz-animation-name: fadeInLeft;
+      -o-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 1.4s;
+  }
+  .in-left-body-one {
+  color:white;
+  padding-left: 427px;
+  padding-top: 100px;
+
+      -webkit-animation-name: fadeInLeft;
+      -moz-animation-name: fadeInLeft;
+      -o-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 1.4s;
+  }
+  .in-left-body-two {
+    color:white;
+    padding-left: 427px;
+    padding-top:140px;
+
+
+      -webkit-animation-name: fadeInLeft;
+      -moz-animation-name: fadeInLeft;
+      -o-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 1.6s;
+  }
+  .in-left-body-three {
+  color:white;
+  padding-left: 427px;
+    padding-top:180px;
+      -webkit-animation-name: fadeInLeft;
+      -moz-animation-name: fadeInLeft;
+      -o-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 1.8s;
+  }
+  .in-left-body-four {
+  color:white;
+  padding-left: 427px;
+    padding-top:220px;
+      -webkit-animation-name: fadeInLeft;
+      -moz-animation-name: fadeInLeft;
+      -o-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 2s;
+  }
+
+
+  .in-left-button{
+    padding-left: 530px;
+    padding-top: 289px;
+    color: black;
+        -webkit-animation-name: fadeInLeft;
+        -moz-animation-name: fadeInLeft;
+        -o-animation-name: fadeInLeft;
+        animation-name: fadeInLeft;
+        -webkit-animation-fill-mode: both;
+        -moz-animation-fill-mode: both;
+        -o-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+        -o-animation-duration: 1s;
+        animation-duration: 2.2s;
+        -webkit-animation-delay: 1s;
+        -moz-animation-delay: 1s;
+        -o-animation-duration:1s;
+        animation-delay: 2.2s;
+  }
+  .btn-primary {
+      color:black !important;
+      background-color: #ffd40b  !important;
+          border: none !important;
+      border-radius: 25px  !important;
+      height: 52px !important;
+    width: 137px !important;
+    font-size: 23px !important;
+    }
+  .in-left-button-five{
+    padding-left: 497px;
+    padding-top: 0px;
+
+        -webkit-animation-name: fadeInLeft;
+        -moz-animation-name: fadeInLeft;
+        -o-animation-name: fadeInLeft;
+        animation-name: fadeInLeft;
+        -webkit-animation-fill-mode: both;
+        -moz-animation-fill-mode: both;
+        -o-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+        -o-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-delay: 1s;
+        -moz-animation-delay: 1s;
+        -o-animation-duration:1s;
+        animation-delay: 2.4s;
+  }
+  @keyframes fadeInRight {
+      from {
+          opacity:0;
+          -webkit-transform: translatex(1100px);
+          -moz-transform: translatex(1100px);
+          -o-transform: translatex(1100px);
+          transform: translatex(1100px);
+      }
+      to {
+          opacity:1;
+          -webkit-transform: translatex(0);
+          -moz-transform: translatex(0);
+          -o-transform: translatex(0);
+          transform: translatex(0);
+      }
+  }
+  .in-right {
+
+      -webkit-animation-name: fadeInRight;
+      -moz-animation-name: fadeInRight;
+      -o-animation-name: fadeInRight;
+      animation-name: fadeInRight;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 1s;
+
+  }
+  .in-rightin {
+
+      -webkit-animation-name: fadeInRight;
+      -moz-animation-name: fadeInRight;
+      -o-animation-name: fadeInRight;
+      animation-name: fadeInRight;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 8s;
+  }
+  .in-rightinpc {
+
+      -webkit-animation-name: fadeInRight;
+      -moz-animation-name: fadeInRight;
+      -o-animation-name: fadeInRight;
+      animation-name: fadeInRight;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 15s;
+  }
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+
+  body {
+    font-family: 'Open Sans', 'sans-serif';
+    color: #cecece;
+    background: #222;
+    overflow: hidden;
+  }
+  .pic-1,
+  .pic-2,
+  .pic-3{
+  	position: absolute;
+    display: block;
+  	top: 2em;
+
+    width: 60%;
+
+    font-size: 2em;
+
+  	animation-duration: 20s;
+  	animation-timing-function: ease-in-out;
+  	animation-iteration-count: infinite;
+  }
+  .pic-1{
+  	animation-name: pim-1;
+  }
+  .pic-2{
+  	animation-name: pim-2;
+  }
+  .pic-3{
+  	animation-name: pim-3;
+  }
+  @keyframes pim-1 {
+  	0%, 8.3% { right:  -100%; opacity: 0; }
+    8.3%,25% { right:  5px; top:1px;opacity: 1; }
+    33.33%, 100% { right:  -50%; opacity: 0; }
+  }
+  @keyframes pim-2 {
+  	0%, 8.3% { right:  -100%; opacity: 0; }
+    8.3%,25% { right:  5px; top:1px;opacity: 1; }
+    33.33%, 100% { right: -50%; opacity: 0; }
+  }
+  @keyframes pim-3 {
+  	0%, 8.3% { right:  -100%; opacity: 0; }
+    8.3%,25% { right:  5px; top:1px;opacity: 1; }
+    33.33%, 100% { right:  -50%; opacity: 0; }
+  }
+  .item-1,
+  .item-2,
+  .item-3 {
+  	position: absolute;
+    display: block;
+  	top: 2em;
+
+    width: 60%;
+
+    font-size: 2em;
+
+  	animation-duration: 20s;
+  	animation-timing-function: ease-in-out;
+  	animation-iteration-count: infinite;
+  }
+
+  .item-1{
+  	animation-name: anim-1;
+  }
+
+  .item-2{
+  	animation-name: anim-2;
+  }
+
+  .item-3{
+  	animation-name: anim-3;
+  }
+
+  @keyframes anim-1 {
+  	0%, 8.3% { left: -100%; opacity: 0; }
+    8.3%,25% { left: 5px; top:1px;opacity: 1; }
+    33.33%, 100% { left: -50%; opacity: 0; }
+  }
+
+  @keyframes anim-2 {
+  	0%, 33.33% { left: -100%; opacity: 0; }
+    41.63%, 58.29% { left: 5px; top:1px;opacity: 1; }
+    66.66%, 100% { left: -50%; opacity: 0; }
+  }
+
+  @keyframes anim-3 {
+  	0%, 66.66% { left: -100%; opacity: 0; }
+    74.96%, 91.62% { left: 5px; top:1px; opacity: 1; }
+    100% { left: -50%; opacity: 0; }
+  }
+
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  @keyframes fadeInLeft {
+      from {
+          opacity:0;
+          -webkit-transform: translatex(-1000px);
+          -moz-transform: translatex(-1000px);
+          -o-transform: translatex(-1000px);
+          transform: translatex(-1000px);
+      }
+      to {
+          opacity:1;
+          -webkit-transform: translatex(0);
+          -moz-transform: translatex(0);
+          -o-transform: translatex(0);
+          transform: translatex(0);
+      }
+  }
+
+
+  .in-left-head {
+  padding-left: 427px;
+  padding-top: 20px;
+
+  color:Yellow;
+      -webkit-animation-name: fadeInLeft;
+      -moz-animation-name: fadeInLeft;
+      -o-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 1.2s;
+
+  }
+
+  .in-left-body {
+  color:white;
+  padding-left: 427px;
+  padding-top: 20px;
+
+      -webkit-animation-name: fadeInLeft;
+      -moz-animation-name: fadeInLeft;
+      -o-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 1.4s;
+  }
+  .in-left-body-one {
+  color:white;
+  padding-left: 427px;
+  padding-top: 100px;
+
+      -webkit-animation-name: fadeInLeft;
+      -moz-animation-name: fadeInLeft;
+      -o-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 1.4s;
+  }
+  .in-left-body-two {
+    color:white;
+    padding-left: 427px;
+    padding-top:140px;
+
+
+      -webkit-animation-name: fadeInLeft;
+      -moz-animation-name: fadeInLeft;
+      -o-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 1.6s;
+  }
+  .in-left-body-three {
+  color:white;
+  padding-left: 427px;
+    padding-top:180px;
+      -webkit-animation-name: fadeInLeft;
+      -moz-animation-name: fadeInLeft;
+      -o-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 1.8s;
+  }
+  .in-left-body-four {
+  color:white;
+  padding-left: 427px;
+    padding-top:220px;
+      -webkit-animation-name: fadeInLeft;
+      -moz-animation-name: fadeInLeft;
+      -o-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 2s;
+  }
+
+
+  .in-left-button{
+    padding-left: 530px;
+    padding-top: 289px;
+    color: black;
+        -webkit-animation-name: fadeInLeft;
+        -moz-animation-name: fadeInLeft;
+        -o-animation-name: fadeInLeft;
+        animation-name: fadeInLeft;
+        -webkit-animation-fill-mode: both;
+        -moz-animation-fill-mode: both;
+        -o-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+        -o-animation-duration: 1s;
+        animation-duration: 2.2s;
+        -webkit-animation-delay: 1s;
+        -moz-animation-delay: 1s;
+        -o-animation-duration:1s;
+        animation-delay: 2.2s;
+  }
+  .btn-primary {
+      color:black !important;
+      background-color: #ffd40b  !important;
+          border: none !important;
+      border-radius: 25px  !important;
+      height: 52px !important;
+    width: 137px !important;
+    font-size: 23px !important;
+    }
+  .in-left-button-five{
+    padding-left: 497px;
+    padding-top: 0px;
+
+        -webkit-animation-name: fadeInLeft;
+        -moz-animation-name: fadeInLeft;
+        -o-animation-name: fadeInLeft;
+        animation-name: fadeInLeft;
+        -webkit-animation-fill-mode: both;
+        -moz-animation-fill-mode: both;
+        -o-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+        -o-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-delay: 1s;
+        -moz-animation-delay: 1s;
+        -o-animation-duration:1s;
+        animation-delay: 2.4s;
+  }
+  @keyframes fadeInRight {
+      from {
+          opacity:0;
+          -webkit-transform: translatex(1100px);
+          -moz-transform: translatex(1100px);
+          -o-transform: translatex(1100px);
+          transform: translatex(1100px);
+      }
+      to {
+          opacity:1;
+          -webkit-transform: translatex(0);
+          -moz-transform: translatex(0);
+          -o-transform: translatex(0);
+          transform: translatex(0);
+      }
+  }
+  .in-right {
+
+      -webkit-animation-name: fadeInRight;
+      -moz-animation-name: fadeInRight;
+      -o-animation-name: fadeInRight;
+      animation-name: fadeInRight;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 1s;
+
+  }
+  .in-rightin {
+
+      -webkit-animation-name: fadeInRight;
+      -moz-animation-name: fadeInRight;
+      -o-animation-name: fadeInRight;
+      animation-name: fadeInRight;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 8s;
+  }
+  .in-rightinpc {
+
+      -webkit-animation-name: fadeInRight;
+      -moz-animation-name: fadeInRight;
+      -o-animation-name: fadeInRight;
+      animation-name: fadeInRight;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 15s;
+  }
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+
+  body {
+    font-family: 'Open Sans', 'sans-serif';
+    color: #cecece;
+    background: #222;
+    overflow: hidden;
+  }
+  .pic-1,
+  .pic-2,
+  .pic-3{
+  	position: absolute;
+    display: block;
+  	top: 2em;
+
+    width: 60%;
+
+    font-size: 2em;
+
+  	animation-duration: 20s;
+  	animation-timing-function: ease-in-out;
+  	animation-iteration-count: infinite;
+  }
+  .pic-1{
+  	animation-name: pim-1;
+  }
+  .pic-2{
+  	animation-name: pim-2;
+  }
+  .pic-3{
+  	animation-name: pim-3;
+  }
+  @keyframes pim-1 {
+  	0%, 8.3% { right:  -100%; opacity: 0; }
+    8.3%,25% { right:  5px; top:1px;opacity: 1; }
+    33.33%, 100% { right:  -50%; opacity: 0; }
+  }
+  @keyframes pim-2 {
+  	0%, 8.3% { right:  -100%; opacity: 0; }
+    8.3%,25% { right:  5px; top:1px;opacity: 1; }
+    33.33%, 100% { right: -50%; opacity: 0; }
+  }
+  @keyframes pim-3 {
+  	0%, 8.3% { right:  -100%; opacity: 0; }
+    8.3%,25% { right:  5px; top:1px;opacity: 1; }
+    33.33%, 100% { right:  -50%; opacity: 0; }
+  }
+  .item-1,
+  .item-2,
+  .item-3 {
+  	position: absolute;
+    display: block;
+  	top: 2em;
+
+    width: 60%;
+
+    font-size: 2em;
+
+  	animation-duration: 20s;
+  	animation-timing-function: ease-in-out;
+  	animation-iteration-count: infinite;
+  }
+
+  .item-1{
+  	animation-name: anim-1;
+  }
+
+  .item-2{
+  	animation-name: anim-2;
+  }
+
+  .item-3{
+  	animation-name: anim-3;
+  }
+
+  @keyframes anim-1 {
+  	0%, 8.3% { left: -100%; opacity: 0; }
+    8.3%,25% { left: 5px; top:1px;opacity: 1; }
+    33.33%, 100% { left: -50%; opacity: 0; }
+  }
+
+  @keyframes anim-2 {
+  	0%, 33.33% { left: -100%; opacity: 0; }
+    41.63%, 58.29% { left: 5px; top:1px;opacity: 1; }
+    66.66%, 100% { left: -50%; opacity: 0; }
+  }
+
+  @keyframes anim-3 {
+  	0%, 66.66% { left: -100%; opacity: 0; }
+    74.96%, 91.62% { left: 5px; top:1px; opacity: 1; }
+    100% { left: -50%; opacity: 0; }
+  }
+
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  @keyframes fadeInLeft {
+      from {
+          opacity:0;
+          -webkit-transform: translatex(-1000px);
+          -moz-transform: translatex(-1000px);
+          -o-transform: translatex(-1000px);
+          transform: translatex(-1000px);
+      }
+      to {
+          opacity:1;
+          -webkit-transform: translatex(0);
+          -moz-transform: translatex(0);
+          -o-transform: translatex(0);
+          transform: translatex(0);
+      }
+  }
+
+
+  .in-left-head {
+  padding-left: 427px;
+  padding-top: 20px;
+
+  color:Yellow;
+      -webkit-animation-name: fadeInLeft;
+      -moz-animation-name: fadeInLeft;
+      -o-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 1.2s;
+
+  }
+
+  .in-left-body {
+  color:white;
+  padding-left: 427px;
+  padding-top: 20px;
+
+      -webkit-animation-name: fadeInLeft;
+      -moz-animation-name: fadeInLeft;
+      -o-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 1.4s;
+  }
+  .in-left-body-one {
+  color:white;
+  padding-left: 427px;
+  padding-top: 100px;
+
+      -webkit-animation-name: fadeInLeft;
+      -moz-animation-name: fadeInLeft;
+      -o-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 1.4s;
+  }
+  .in-left-body-two {
+    color:white;
+    padding-left: 427px;
+    padding-top:140px;
+
+
+      -webkit-animation-name: fadeInLeft;
+      -moz-animation-name: fadeInLeft;
+      -o-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 1.6s;
+  }
+  .in-left-body-three {
+  color:white;
+  padding-left: 427px;
+    padding-top:180px;
+      -webkit-animation-name: fadeInLeft;
+      -moz-animation-name: fadeInLeft;
+      -o-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 1.8s;
+  }
+  .in-left-body-four {
+  color:white;
+  padding-left: 427px;
+    padding-top:220px;
+      -webkit-animation-name: fadeInLeft;
+      -moz-animation-name: fadeInLeft;
+      -o-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 2s;
+  }
+
+
+  .in-left-button{
+    padding-left: 530px;
+    padding-top: 289px;
+    color: black;
+        -webkit-animation-name: fadeInLeft;
+        -moz-animation-name: fadeInLeft;
+        -o-animation-name: fadeInLeft;
+        animation-name: fadeInLeft;
+        -webkit-animation-fill-mode: both;
+        -moz-animation-fill-mode: both;
+        -o-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+        -o-animation-duration: 1s;
+        animation-duration: 2.2s;
+        -webkit-animation-delay: 1s;
+        -moz-animation-delay: 1s;
+        -o-animation-duration:1s;
+        animation-delay: 2.2s;
+  }
+  .btn-primary {
+      color:black !important;
+      background-color: #ffd40b  !important;
+          border: none !important;
+      border-radius: 25px  !important;
+      height: 52px !important;
+    width: 137px !important;
+    font-size: 23px !important;
+    }
+  .in-left-button-five{
+    padding-left: 497px;
+    padding-top: 0px;
+
+        -webkit-animation-name: fadeInLeft;
+        -moz-animation-name: fadeInLeft;
+        -o-animation-name: fadeInLeft;
+        animation-name: fadeInLeft;
+        -webkit-animation-fill-mode: both;
+        -moz-animation-fill-mode: both;
+        -o-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+        -o-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-delay: 1s;
+        -moz-animation-delay: 1s;
+        -o-animation-duration:1s;
+        animation-delay: 2.4s;
+  }
+  @keyframes fadeInRight {
+      from {
+          opacity:0;
+          -webkit-transform: translatex(1100px);
+          -moz-transform: translatex(1100px);
+          -o-transform: translatex(1100px);
+          transform: translatex(1100px);
+      }
+      to {
+          opacity:1;
+          -webkit-transform: translatex(0);
+          -moz-transform: translatex(0);
+          -o-transform: translatex(0);
+          transform: translatex(0);
+      }
+  }
+  .in-right {
+
+      -webkit-animation-name: fadeInRight;
+      -moz-animation-name: fadeInRight;
+      -o-animation-name: fadeInRight;
+      animation-name: fadeInRight;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 1s;
+
+  }
+  .in-rightin {
+
+      -webkit-animation-name: fadeInRight;
+      -moz-animation-name: fadeInRight;
+      -o-animation-name: fadeInRight;
+      animation-name: fadeInRight;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 8s;
+  }
+  .in-rightinpc {
+
+      -webkit-animation-name: fadeInRight;
+      -moz-animation-name: fadeInRight;
+      -o-animation-name: fadeInRight;
+      animation-name: fadeInRight;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 15s;
+  }
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+
+  body {
+    font-family: 'Open Sans', 'sans-serif';
+    color: #cecece;
+    background: #222;
+    overflow: hidden;
+  }
+  .pic-1,
+  .pic-2,
+  .pic-3{
+  	position: absolute;
+    display: block;
+  	top: 2em;
+
+    width: 60%;
+
+    font-size: 2em;
+
+  	animation-duration: 20s;
+  	animation-timing-function: ease-in-out;
+  	animation-iteration-count: infinite;
+  }
+  .pic-1{
+  	animation-name: pim-1;
+  }
+  .pic-2{
+  	animation-name: pim-2;
+  }
+  .pic-3{
+  	animation-name: pim-3;
+  }
+  @keyframes pim-1 {
+  	0%, 8.3% { right:  -100%; opacity: 0; }
+    8.3%,25% { right:  5px; top:1px;opacity: 1; }
+    33.33%, 100% { right:  -50%; opacity: 0; }
+  }
+  @keyframes pim-2 {
+  	0%, 8.3% { right:  -100%; opacity: 0; }
+    8.3%,25% { right:  5px; top:1px;opacity: 1; }
+    33.33%, 100% { right: -50%; opacity: 0; }
+  }
+  @keyframes pim-3 {
+  	0%, 8.3% { right:  -100%; opacity: 0; }
+    8.3%,25% { right:  5px; top:1px;opacity: 1; }
+    33.33%, 100% { right:  -50%; opacity: 0; }
+  }
+  .item-1,
+  .item-2,
+  .item-3 {
+  	position: absolute;
+    display: block;
+  	top: 2em;
+
+    width: 60%;
+
+    font-size: 2em;
+
+  	animation-duration: 20s;
+  	animation-timing-function: ease-in-out;
+  	animation-iteration-count: infinite;
+  }
+
+  .item-1{
+  	animation-name: anim-1;
+  }
+
+  .item-2{
+  	animation-name: anim-2;
+  }
+
+  .item-3{
+  	animation-name: anim-3;
+  }
+
+  @keyframes anim-1 {
+  	0%, 8.3% { left: -100%; opacity: 0; }
+    8.3%,25% { left: 5px; top:1px;opacity: 1; }
+    33.33%, 100% { left: -50%; opacity: 0; }
+  }
+
+  @keyframes anim-2 {
+  	0%, 33.33% { left: -100%; opacity: 0; }
+    41.63%, 58.29% { left: 5px; top:1px;opacity: 1; }
+    66.66%, 100% { left: -50%; opacity: 0; }
+  }
+
+  @keyframes anim-3 {
+  	0%, 66.66% { left: -100%; opacity: 0; }
+    74.96%, 91.62% { left: 5px; top:1px; opacity: 1; }
+    100% { left: -50%; opacity: 0; }
+  }
+
+
+}
+@keyframes fadeInLeft {
+    from {
+        opacity:0;
+        -webkit-transform: translatex(-1000px);
+        -moz-transform: translatex(-1000px);
+        -o-transform: translatex(-1000px);
+        transform: translatex(-1000px);
+    }
+    to {
+        opacity:1;
+        -webkit-transform: translatex(0);
+        -moz-transform: translatex(0);
+        -o-transform: translatex(0);
+        transform: translatex(0);
+    }
+}
+
+
+.in-left-head {
+padding-left: 427px;
+padding-top: 20px;
+
+color:Yellow;
+    -webkit-animation-name: fadeInLeft;
+    -moz-animation-name: fadeInLeft;
+    -o-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -o-animation-duration:1s;
+    animation-delay: 1.2s;
+
+}
+
+.in-left-body {
+color:white;
+padding-left: 427px;
+padding-top: 20px;
+
+    -webkit-animation-name: fadeInLeft;
+    -moz-animation-name: fadeInLeft;
+    -o-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -o-animation-duration:1s;
+    animation-delay: 1.4s;
+}
+.in-left-body-one {
+color:white;
+padding-left: 427px;
+padding-top: 100px;
+
+    -webkit-animation-name: fadeInLeft;
+    -moz-animation-name: fadeInLeft;
+    -o-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -o-animation-duration:1s;
+    animation-delay: 1.4s;
+}
+.in-left-body-two {
+  color:white;
+  padding-left: 427px;
+  padding-top:140px;
+
+
+    -webkit-animation-name: fadeInLeft;
+    -moz-animation-name: fadeInLeft;
+    -o-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -o-animation-duration:1s;
+    animation-delay: 1.6s;
+}
+.in-left-body-three {
+color:white;
+padding-left: 427px;
+  padding-top:180px;
+    -webkit-animation-name: fadeInLeft;
+    -moz-animation-name: fadeInLeft;
+    -o-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -o-animation-duration:1s;
+    animation-delay: 1.8s;
+}
+.in-left-body-four {
+color:white;
+padding-left: 427px;
+  padding-top:220px;
+    -webkit-animation-name: fadeInLeft;
+    -moz-animation-name: fadeInLeft;
+    -o-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -o-animation-duration:1s;
+    animation-delay: 2s;
+}
+
+
+.in-left-button{
+  padding-left: 530px;
+  padding-top: 289px;
+  color: black;
+      -webkit-animation-name: fadeInLeft;
+      -moz-animation-name: fadeInLeft;
+      -o-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 2.2s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 2.2s;
+}
+.btn-primary {
+    color:black !important;
+    background-color: #ffd40b  !important;
+        border: none !important;
+    border-radius: 25px  !important;
+    height: 52px !important;
+  width: 137px !important;
+  font-size: 23px !important;
+  }
+.in-left-button-five{
+  padding-left: 497px;
+  padding-top: 0px;
+
+      -webkit-animation-name: fadeInLeft;
+      -moz-animation-name: fadeInLeft;
+      -o-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      -o-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      -o-animation-duration:1s;
+      animation-delay: 2.4s;
+}
+@keyframes fadeInRight {
+    from {
+        opacity:0;
+        -webkit-transform: translatex(1100px);
+        -moz-transform: translatex(1100px);
+        -o-transform: translatex(1100px);
+        transform: translatex(1100px);
+    }
+    to {
+        opacity:1;
+        -webkit-transform: translatex(0);
+        -moz-transform: translatex(0);
+        -o-transform: translatex(0);
+        transform: translatex(0);
+    }
+}
+.in-right {
+
+    -webkit-animation-name: fadeInRight;
+    -moz-animation-name: fadeInRight;
+    -o-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -o-animation-duration:1s;
+    animation-delay: 1s;
+
+}
+.in-rightin {
+
+    -webkit-animation-name: fadeInRight;
+    -moz-animation-name: fadeInRight;
+    -o-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -o-animation-duration:1s;
+    animation-delay: 8s;
+}
+.in-rightinpc {
+
+    -webkit-animation-name: fadeInRight;
+    -moz-animation-name: fadeInRight;
+    -o-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -o-animation-duration:1s;
+    animation-delay: 15s;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+
+body {
+  font-family: 'Open Sans', 'sans-serif';
+  color: #cecece;
+  background: #222;
+  overflow: hidden;
+}
+.pic-1,
+.pic-2,
+.pic-3{
+	position: absolute;
+  display: block;
+	top: 2em;
+
+  width: 60%;
+
+  font-size: 2em;
+
+	animation-duration: 20s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+.pic-1{
+	animation-name: pim-1;
+}
+.pic-2{
+	animation-name: pim-2;
+}
+.pic-3{
+	animation-name: pim-3;
+}
+@keyframes pim-1 {
+	0%, 8.3% { right:  -100%; opacity: 0; }
+  8.3%,25% { right:  5px; top:1px;opacity: 1; }
+  33.33%, 100% { right:  -50%; opacity: 0; }
+}
+@keyframes pim-2 {
+	0%, 8.3% { right:  -100%; opacity: 0; }
+  8.3%,25% { right:  5px; top:1px;opacity: 1; }
+  33.33%, 100% { right: -50%; opacity: 0; }
+}
+@keyframes pim-3 {
+	0%, 8.3% { right:  -100%; opacity: 0; }
+  8.3%,25% { right:  5px; top:1px;opacity: 1; }
+  33.33%, 100% { right:  -50%; opacity: 0; }
+}
+.item-1,
+.item-2,
+.item-3 {
+	position: absolute;
+  display: block;
+	top: 2em;
+
+  width: 60%;
+
+  font-size: 2em;
+
+	animation-duration: 20s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+.item-1{
+	animation-name: anim-1;
+}
+
+.item-2{
+	animation-name: anim-2;
+}
+
+.item-3{
+	animation-name: anim-3;
+}
+
+@keyframes anim-1 {
+	0%, 8.3% { left: -100%; opacity: 0; }
+  8.3%,25% { left: 5px; top:1px;opacity: 1; }
+  33.33%, 100% { left: -50%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 33.33% { left: -100%; opacity: 0; }
+  41.63%, 58.29% { left: 5px; top:1px;opacity: 1; }
+  66.66%, 100% { left: -50%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 66.66% { left: -100%; opacity: 0; }
+  74.96%, 91.62% { left: 5px; top:1px; opacity: 1; }
+  100% { left: -50%; opacity: 0; }
+}
