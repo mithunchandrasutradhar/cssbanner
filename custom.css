@@ -1,0 +1,330 @@
+/* ==== Main CSS === */
+.img-fill {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.img-fill img {
+  position: relative;
+  max-width: 100%;
+  opacity: 0;
+}
+.blocks-box,
+.slick-slider {
+  margin: 0;
+  padding: 0 !important;
+}
+
+.slick-slide {
+  float: left /* If RTL Make This Right */;
+  padding: 0;
+}
+/* ==== Main CSS === */
+.d-flex {
+  display: flex;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.align-items-center {
+  align-items: center;
+}
+@media (min-width: 992px) {
+  .pb-lg-5,
+  .py-lg-5 {
+    padding-bottom: 3rem;
+  }
+  .pt-lg-5,
+  .py-lg-5 {
+    padding-top: 3rem;
+  }
+  .d-lg-flex {
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .mr-lg-4,
+  .mx-lg-4 {
+    margin-right: 1.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .ml-md-5,
+  .mx-md-5 {
+    margin-left: 3rem !important;
+  }
+}
+.slide_btn {
+  margin: 0;
+  font-family: inherit;
+  overflow: visible;
+  text-transform: none;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  color: #212529;
+  background-color: #ffc107;
+  border-color: #ffc107;
+  cursor: pointer;
+}
+.pb-3,
+.py-3 {
+  padding-bottom: 1rem;
+}
+.pt-3,
+.py-3 {
+  padding-top: 1rem;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+/* ==== Slider Style === */
+
+.Modern-Slider .NextArrow {
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  width: 45px;
+  height: 45px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 0 none;
+  margin-top: -22.5px;
+  text-align: center;
+  font: 20px/45px FontAwesome;
+  color: #fff;
+  z-index: 5;
+}
+
+.Modern-Slider .NextArrow:before {
+  content: "\f105";
+}
+
+.Modern-Slider .PrevArrow {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  width: 45px;
+  height: 45px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 0 none;
+  margin-top: -22.5px;
+  text-align: center;
+  font: 20px/45px FontAwesome;
+  color: #fff;
+  z-index: 5;
+}
+
+.Modern-Slider .PrevArrow:before {
+  content: "\f104";
+}
+
+.Modern-Slider .slick-dots {
+  position: absolute;
+  height: 5px;
+  background: rgba(255, 255, 255, 0.2);
+  bottom: 0px;
+  width: 100%;
+  left: 0px;
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+.Modern-Slider .slick-dots li button {
+  display: none;
+}
+.Modern-Slider .slick-dots li {
+  float: left;
+  width: 0px;
+  height: 5px;
+  background: #0d7cbf;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+.Modern-Slider .slick-dots li.slick-active {
+  width: 100%;
+  animation: ProgressDots 7s both;
+}
+
+.Modern-Slider .item h3 {
+  text-transform: uppercase;
+  color: #fff;
+  opacity: 0;
+}
+
+.Modern-Slider .item h5 {
+  font: 15px/30px RalewayR;
+  color: #fff;
+  max-width: 600px;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.Modern-Slider .item.slick-active h3 {
+  animation: fadeInOutLeft 6s both 0.4s;
+}
+
+.Modern-Slider .item.slick-active h5 {
+  animation: fadeInOutLeft 6s both 0.4s;
+}
+.Modern-Slider .item.slick-active h5:nth-child(2) {
+  animation-delay: 0.6s;
+}
+.Modern-Slider .item.slick-active h5:nth-child(3) {
+  animation-delay: 0.8s;
+}
+.Modern-Slider .item.slick-active h5:nth-child(4) {
+  animation-delay: 1s;
+}
+.Modern-Slider .item.slick-active h5:nth-child(5) {
+  animation-delay: 1.2s;
+}
+.Modern-Slider .item.slick-active h5:nth-child(6) {
+  animation-delay: 1.4s;
+}
+
+.Modern-Slider .item.slick-active img {
+  animation: fadeInOutRight 6s both 0.5s;
+}
+.Modern-Slider {
+  background: url(/images//back.png) center no-repeat;
+  background-size: cover;
+}
+
+/* ==== Slider Image Transition === */
+@keyframes ProgressDots {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* ==== Slick Slider Css Ruls === */
+.slick-slider {
+  position: relative;
+  display: block;
+  user-select: none;
+  touch-action: pan-y;
+}
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.slick-list:focus {
+  outline: none;
+}
+.slick-list.dragging {
+  cursor: hand;
+}
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  transform: translate3d(0, 0, 0);
+}
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+.slick-track:before,
+.slick-track:after {
+  display: table;
+  content: "";
+}
+.slick-track:after {
+  clear: both;
+}
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+.slick-slide {
+  display: none;
+  float: left /* If RTL Make This Right */;
+  height: 100%;
+  min-height: 1px;
+}
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+.slick-initialized .slick-slide {
+  display: block;
+}
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+@keyframes fadeInOutLeft {
+  0% {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+  30% {
+    opacity: 1;
+    transform: none;
+  }
+
+  80% {
+    opacity: 1;
+    transform: none;
+  }
+  100% {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes fadeInOutRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  30% {
+    opacity: 1;
+    transform: none;
+  }
+  80% {
+    opacity: 1;
+    transform: none;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+}
+@media (max-width: 991px) {
+  .img-fill img {
+    width: 200px;
+    display: none;
+  }
+  .img-fill {
+    text-align: center !important;
+  }
+}
